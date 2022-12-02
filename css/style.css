@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html,body{
+    height:100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+aside{
+    width:250px;
+    height:100%;
+    position:absolute;
+    background:rgba(0,0,0,0.8);
+    z-index: 10;
+    left:-250px;
+}
+
+aside .menu_btn{
+    width:50px;
+    height:50px;
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    top:50px;
+    left:100%;
+    cursor: pointer;
+}
+
+aside .menu_btn .stick{
+    display: block;
+    width:30px;
+    height:4px;
+    margin:0 10px;
+    position:absolute;
+    background:#fff;
+}
+
+aside .menu_btn .t_stick{
+    top:15px;
+}
+
+aside .menu_btn .m_stick{
+    top:24px;
+}
+
+aside .menu_btn .b_stick{
+    top:33px;
+}
+
+aside h1{
+    width:60%;
+    margin:40px auto;
+}
+
+aside h1 img{
+    width:100%;
+}
+
+aside nav ul{
+    width:70%;
+    margin:50px auto;
+}
+aside nav ul li{
+    margin:20px 0;
+}
+
+aside nav ul li a{
+    color:white;
+}
+
+aside nav ul li a img{
+    margin-right:20px;
+}
+
+aside p{
+    width:70%;
+    margin:50px auto;
+    color:white;
+    line-height: 2;
+}
+
+aside .tel{
+    font-size: 30px;
+}
+
+section{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+section h1{
+    text-align: center;
+
+    margin:0 auto;
+    position:absolute;
+    z-index: 9;
+    left:0;
+    right:0;
+    top:20px;
+    margin:auto;
+}
+
+section div video{
+    min-width:100%;
+    min-height:100%;
+    position:fixed;
+}
+
+footer{
+    width:100%;
+    text-align: center;
+    color:white;
+    position:absolute;
+    z-index: 8;
+    bottom:20px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
